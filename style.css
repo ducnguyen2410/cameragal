@@ -34,3 +34,14 @@ body {
     object-fit: cover;
     filter: grayscale(100%);
 }
+
+@media only screen and (max-device-width:700px) {
+    .item2 {
+        width: 100px;
+        height: 150px;
+    }
+
+    body {
+       background-size: 350px; 
+    }
+}
